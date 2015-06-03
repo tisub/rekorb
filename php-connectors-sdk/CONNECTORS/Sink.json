@@ -1,0 +1,68 @@
+{
+	"general":
+	{
+		"language": 	"PHP",
+		"category": 	"Productivity",
+		"buy_price": 	0,
+		"use_price": 	0,
+		"small_logo": 	"",
+		"big_logo": 	""
+	},
+	"interfaces":
+	[
+		{
+			"key": 				"hole",
+			"direction": 		"input",
+			"pattern":			"consumer",
+			"custom": 			false,
+			"automatic": 		false,
+			"timer": 			null,
+			"hidden": 			false,
+			"rule": 			null
+		}
+	],
+	"configs":
+	[
+		{
+			"key": 		"depth",
+			"hidden": 	false,
+			"bindable":	false,
+			"default":	3,
+			"rule": 	null
+		}
+	],
+	"translation":
+	{
+		"en":
+		{
+			"general": 
+			{
+				"name": 				"Sink",
+				"short_description": 	"Send everything in the sink",
+				"long_description": 	"Send everything in the sink",
+				"prevention": 			null,
+				"config_url": 			null,
+				"panel_url": 			null,
+				"product_url": 			null
+			},
+			"interfaces": 
+			{
+				"hole":
+				{
+					"name": 		"Hole",
+					"description": 	"Send here",
+					"rule": 		null
+				}
+			},
+			"configs": 
+			{
+				"depth":
+				{
+					"name": 		"Depth",
+					"description": 	"The depth of the sink",
+					"rule": 		null
+				}
+			}
+		}
+	}
+}
